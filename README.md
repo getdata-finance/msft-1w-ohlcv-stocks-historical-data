@@ -1,10 +1,10 @@
 # MSFT 1w OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-854_rows-blue)](https://getdata.finance/datasets/msft) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/msft)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-858_rows-blue)](https://getdata.finance/datasets/msft) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/msft)
 
 ### -> [**Download the full MSFT dataset on getdata.finance**](https://getdata.finance/datasets/msft)
 
-**MSFT 1w OHLCV us stocks historical data** — ultra high-quality 1w OHLCV for **MSFT**. US equity cash and extended sessions — institutional-style OHLCV candles for US stocks. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**MSFT 1w OHLCV stocks historical data** — ultra high-quality 1w OHLCV for **Microsoft**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 1w OHLCV** for **MSFT** (US stocks)
-- **US equity cash and extended sessions — institutional-style OHLCV candles for US stocks**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1w`) · **9 timeframes** on [getdata.finance](https://getdata.finance/datasets/msft) · **854** `1m` rows in the full archive
+- **Ultra high-quality 1w OHLCV** for **Microsoft** (US stocks)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`1w`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/msft) · **858** `1w` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1w` sample updated in sync
 
-> **Sample on GitHub** · `MSFT_1w.csv` (10 rows, `2026-05-28` -> `2026-07-30`). **Full archive on [getdata.finance](https://getdata.finance/datasets/msft)** — **854** `1m` rows (~0.07 MB), **9 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W), `2010-03-25` -> `2026-07-30`.
+> **Sample on GitHub** · `MSFT_1w.csv` (29 rows, `2026-02-12` -> `2026-08-27`, 1.79 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/msft)** — **858** `1w` rows (full `1m`: 636,443), **11 timeframes**, `2010-03-25` -> `2026-08-27`.
 
 ## Download sample
 
@@ -44,22 +43,22 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/msft))** |
 |---|--:|---|
-| Instrument | MSFT · US stocks | MSFT · US stocks |
-| Timeframes | `1w` (sample) | **9** — 1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W |
-| 1m rows | 10 | **854** |
-| Size | 652 B | ~0.07 MB |
-| Period | `2026-05-28` -> `2026-07-30` | `2010-03-25` -> `2026-07-30` |
+| Instrument | Microsoft · US stocks | Microsoft · US stocks |
+| Timeframes | `1w` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
+| 1w rows | 29 | **858** |
+| Size | 1.79 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/msft) |
+| Period | `2026-02-12` -> `2026-08-27` | `2010-03-25` -> `2026-08-27` |
 | File | `MSFT_1w.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/msft) |
 | Coverage report | — | [MSFT coverage](https://getdata.finance/coverage/msft) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
 
 ## Timeframes on GetData
 
-This GitHub repository ships a **`1w` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/msft)**, each full asset archive is delivered as a ZIP with **9 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`1w` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/msft)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **12H** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
-GitHub = `1w` sample · [getdata.finance](https://getdata.finance/datasets/msft) = all **9** timeframes above for the same instrument.
+GitHub = `1w` sample · [getdata.finance](https://getdata.finance/datasets/msft) = all **11** timeframes above for the same instrument.
 
 ## Weekly updates
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`MSFT_1w.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-05-28T00:00:00+00:00 | 412.27 | 465.76 | 412.14 | 427.23 | 235531 |
-| 2026-06-04T00:00:00+00:00 | 427.23 | 435.43 | 396.68 | 396.7 | 221915 |
-| 2026-06-11T00:00:00+00:00 | 396.7 | 401.19 | 376.81 | 378.27 | 336160 |
-| 2026-06-18T00:00:00+00:00 | 378.27 | 380.98 | 364.09 | 365.01 | 256825 |
-| 2026-06-25T00:00:00+00:00 | 365.01 | 388.29 | 348.67 | 383.86 | 372253 |
+| 2026-02-12T00:00:00+00:00 | 403.64 | 405.67 | 393.99 | 398.97 | 272970 |
+| 2026-02-19T00:00:00+00:00 | 398.97 | 403.88 | 381.17 | 399.88 | 287587 |
+| 2026-02-26T00:00:00+00:00 | 399.88 | 410.5 | 389.39 | 404.55 | 256596 |
+| 2026-03-05T00:00:00+00:00 | 404.55 | 412.46 | 401.04 | 404.09 | 235042 |
+| 2026-03-12T00:00:00+00:00 | 404.09 | 405.58 | 390.48 | 391.1 | 252242 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-02T00:00:00+00:00 | 383.86 | 394.96 | 380.69 | 382.37 | 232837 |
-| 2026-07-09T00:00:00+00:00 | 382.37 | 398.41 | 372.83 | 394.99 | 271661 |
-| 2026-07-16T00:00:00+00:00 | 394.99 | 405.4 | 386.43 | 389.72 | 239520 |
-| 2026-07-23T00:00:00+00:00 | 389.72 | 400.69 | 376.83 | 391.54 | 247554 |
-| 2026-07-30T00:00:00+00:00 | 391.54 | 466.3 | 391.54 | 464.5 | 135774 |
+| 2026-07-30T00:00:00+00:00 | 391.54 | 498.81 | 391.54 | 486.93 | 301343 |
+| 2026-08-06T00:00:00+00:00 | 486.93 | 513.16 | 486.93 | 491.92 | 194118 |
+| 2026-08-13T00:00:00+00:00 | 491.92 | 500.61 | 476.55 | 483.89 | 205345 |
+| 2026-08-20T00:00:00+00:00 | 483.89 | 496.47 | 477.99 | 493.9 | 156149 |
+| 2026-08-27T00:00:00+00:00 | 495.86 | 517.24 | 489.52 | 500.48 | 110994 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`MSFT_1w.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('MSFT_1w.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('MSFT_1w.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('MSFT_1w.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('MSFT_1w.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('MSFT_1w.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('MSFT_1w.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1W')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **MSFT** archive on **[getdata.finance](https://getdata.finance/datasets/msft)** includes **9 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W) — **854** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **MSFT** archive on **[getdata.finance](https://getdata.finance/datasets/msft)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **858** rows at `1w`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full MSFT dataset on getdata.finance](https://getdata.finance/datasets/msft)**
 
 ---
-*GetData · MSFT 1w OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/msft) · 2026-08-05 UTC*
+*GetData · MSFT 1w OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/msft)*
